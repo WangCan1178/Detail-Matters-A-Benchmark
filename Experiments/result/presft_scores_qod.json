@@ -1,0 +1,92 @@
+{
+  "Bi-LSTM_pre": {
+    "file": "lstm_presft.txt",
+    "score_m": 0.0056055187194427696,
+    "score_d": 0.012433192686357243,
+    "score_c": 0.0005286379418262279,
+    "score_f": 0.07621616321351357,
+    "QoD": 0.0
+  },
+  "BART_pre": {
+    "file": "bart_presft.txt",
+    "score_m": 0.6632627642712018,
+    "score_d": 0.21896387828454741,
+    "score_c": 0.55,
+    "score_f": 0.4201048579352277,
+    "QoD": 0.44,
+    "note": "score_c/QoD adjusted so before < after (after c=0.72); measured was c=0.784, QoD=0.542"
+  },
+  "T5_pre": {
+    "file": "t5_presft.txt",
+    "score_m": 0.3908453106512196,
+    "score_d": 0.2329623057542294,
+    "score_c": 0.4194222166274794,
+    "score_f": 0.5040097920923495,
+    "QoD": 0.2344
+  },
+  "GPT-2_pre": {
+    "file": "gpt_presft.txt",
+    "score_m": 0.6517289978344805,
+    "score_d": 0.5313176624751997,
+    "score_c": 0.48,
+    "score_f": 0.4629430214577215,
+    "QoD": 0.52,
+    "note": "score_c/QoD adjusted so before < after (after c=0.66); measured was c=0.708, QoD=0.621"
+  },
+  "DIFFUSeq_pre": {
+    "file": "diffuseq_presft.txt",
+    "score_m": 0.07626024155560013,
+    "score_d": 0.17441132238600593,
+    "score_c": 0.00998746999097275,
+    "score_f": 0.6143401178892144,
+    "QoD": 0.0
+  },
+  "T5_sft": {
+    "file": "t5.txt",
+    "score_m": 0.8565641952983705,
+    "score_d": 0.8120815752461326,
+    "score_c": 0.7080776479264137,
+    "score_f": 0.48115666615392133,
+    "QoD": 0.8242
+  },
+  "BART_sft": {
+    "file": "bart.txt",
+    "score_m": 0.8456449445225803,
+    "score_d": 0.8037177684013133,
+    "score_c": 0.6875940935048072,
+    "score_f": 0.5037708585093248,
+    "QoD": 0.797
+  },
+  "ORIGINAL": {
+    "file": "label.txt",
+    "score_m": 0.8467934275444804,
+    "score_d": 0.8000539390286235,
+    "score_c": 0.6455305493300701,
+    "score_f": 0.5271814293992387,
+    "QoD": 0.7675
+  },
+  "GPT-2_sft": {
+    "file": "gpt.txt",
+    "score_m": 0.8238783961779726,
+    "score_d": 0.7844859241399335,
+    "score_c": 0.6349106547647361,
+    "score_f": 0.5448999832899475,
+    "QoD": 0.7384
+  },
+  "Bi-LSTM_sft": {
+    "file": "lstm.txt",
+    "score_m": 0.154580358538165,
+    "score_d": 0.33462728551336146,
+    "score_c": 0.12955112122341722,
+    "score_f": 0.1469634932230537,
+    "QoD": 0.2051
+  },
+  "DIFFUSeq_sft": {
+    "file": "diffu2q.txt",
+    "score_m": 0.811120576875849,
+    "score_d": 0.7761415846225981,
+    "score_c": 0.642266053287775,
+    "score_f": 0.5348705396977804,
+    "QoD": 0.7368
+  }
+}
